@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Canal de TV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Pagina Inicial</a></li>
+        <li><a href="canal1.html">Cartoon Network</a></li>
+        <li><a href="canal2.html">Flamengo MEDIO</a></li>
+        <li><a href="canal3.html">FLAMENGO HD</a></li>
+        <li><a href="canal4.html">TNT Sports1</a></li>
+        <li><a href="canal5.html">Outros</a></li>
+        <li><a href="canal6.html">Outros</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <main>
+    <section class="destaque">
+      <h1>Bem-vindo ao Meu Canal do Luizão</h1>
+      <p>Aqui você encontra os melhores canais de TV ao vivo da internet!</p>
+      <h2> SOMENTE PARA A MELHOR PESSOA DO MUNDO </h2>
+
+    </section>
+    <section class="player">
+      <video id="video-player" class="video-js vjs-default-skin"></video>
+    </section>
+    <section class="canais">
+      <button id="play-btn"> <a href=canal2.html> Assistir agora</button>
+      <h2>Canais de TV</h2>
+      <div class="canal">
+        <a href="#" onclick="playVideo('https://playout.cdn.cartoonnetwork.com.br/playout_01/playlist-720p.m3u8')">
+          <img src="https://mundoconectado.com.br/uploads/chamadas/flamengo-x-maringa-pela-copa-do-brasil-2023.jpg " width="350" height="200" alt="FLAMENGO qualidade MEDIA">
+        </a>
+        <h3> CANAL com qualidade média</h3>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2023 Meu Canal de TV. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://vjs.zencdn.net/7.14.3/video.min.js"></script>
+  <script src="script.js"></script>
+  <script src="canal.js"></script>
+</body>
+
+</html>

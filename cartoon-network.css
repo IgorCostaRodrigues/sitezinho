@@ -1,0 +1,103 @@
+/* Estilos gerais */
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #292929;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+/* Estilos da página Cartoon Network */
+#canal1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#player1 {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+#descricao1 {
+    max-width: 800px;
+    text-align: justify;
+}
+
+#descricao1 p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#descricao1 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#descricao1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#descricao1 li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+#descricao1 a {
+    color: #292929;
+    text-decoration: underline;
+}
